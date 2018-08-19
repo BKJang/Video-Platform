@@ -40,7 +40,7 @@ class Login extends Component {
                 Login
       </span>
               <div className="wrap-input100">
-                <input className="input100 input-login"
+                <input className="input100 input-login has-val"
                   type="text"
                   name="custEmail"
                   value={custEmail}
@@ -50,7 +50,7 @@ class Login extends Component {
                 <span className="focus-input100" data-placeholder="Email" ></span>
               </div>
               <div className="wrap-input100">
-                <input className="input100 input-login" type="password" name="password" />
+                <input className="input100 input-login has-val" type="password" name="password" />
                 <span className="focus-input100" data-placeholder="Password"></span>
               </div>
               <div className="container-login-form-btn">
