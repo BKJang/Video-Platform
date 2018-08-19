@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../Header/';
-import Navigator from '../Navigator';
-import Footer from '../Footer';
+import Header from 'components/Header';
+import Navigator from 'components/Navigator';
+import Footer from "components/Footer";
 
 export default ({ children }) => {
   return (

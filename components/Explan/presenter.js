@@ -1,5 +1,5 @@
 import React from "react"
-import { Row, Grid, Col, Image, Media } from "react-bootstrap"
+import { Image, Media } from "react-bootstrap"
 
 const Explan = props => {
   return (

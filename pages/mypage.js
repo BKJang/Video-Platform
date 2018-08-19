@@ -1,8 +1,5 @@
-import React from 'react';
-import { Grid, Alert, Button } from 'react-bootstrap';
-import Liked from 'components/Liked';
-import Video from 'components/Video';
-import PageTemplate from 'components/PageTemplate/PageTemplate';
+import React from "react"
+import PageTemplate from "components/PageTemplate/PageTemplate";
 
 export default () => (
   <>

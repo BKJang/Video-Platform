@@ -1,48 +1,90 @@
 import React from 'react';
-import { footer } from 'react-bootstrap';
 
 const Footer = props => {
   return (
     <>
-      <footer>
-        <div className="row footer-top">
-          <div className="col-md-6 mt-md-0 mt-3">
-            <h5 className="text-uppercase font-weight-bold">Footer text 1</h5>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-              sapiente sint, nulla, 여기에 무얼쓰면 좋을까iquid magnam debitis,
-              maxime quam recusandae harum esse fugiat. Itaque, culpa?
-            </p>
-          </div>
-          <div className="col-md-6 mb-md-0 mb-3">
-            <h5 className="text-uppercase font-weight-bold">Footer text 2</h5>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
-              deserunt fuga perferendis modi earum commodi aperiam temporibus
-              quod nulla nesciunt aliquid debitis ullam omnis quos ipsam,
-              aspernatur id excepturi hic.
-            </p>
+      <footer className="footer">
+        <div className="row">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center footerList">
+            <span className="footerMain">
+              알앤텍솔루션 경기도 용인시 기흥구 용구대로 2311 (경기도여성능력개발센타)
+            </span>
           </div>
         </div>
-        <div className="footer-bottom text-center py-3">
-          © 2018 Copyright:
-          <a href="#">VideoPlatform</a>
+        <div className="row">
+          <div className="col-xs-6 col-sm-6 col-md-offset-2 col-md-2 col-lg-2 text-center footerList">
+            <span className="footerTitle">
+              회사명
+            </span>
+            <span className="footerExplain">
+              VideoPlatform
+            </span>
+          </div>
+          <div className="col-xs-6 col-sm-6 col-md-2 col-lg-2 text-center footerList">
+            <span className="footerTitle">
+              대표
+            </span>
+            <span className="footerExplain">
+              GJS
+            </span>
+          </div>
+          <div className="col-xs-6 col-sm-6 col-md-2 col-lg-2 text-center footerList">
+            <span className="footerTitle">
+              통신판매업신고번호
+            </span>
+            <span className="footerExplain">
+              2018-ㅅㅅㅅ-1111
+            </span>
+          </div>
+          <div className="col-xs-6 col-sm-6 col-md-2 col-lg-2 text-center footerList">
+            <span className="footerTitle">
+              사업자 등록번호
+            </span>
+            <span className="footerExplain">
+              070-0000-0000
+            </span>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-xs-6 col-sm-6 col-md-offset-2 col-md-2 col-lg-2 text-center footerList">
+            <span className="footerTitle">
+              대표번호
+            </span>
+            <span className="footerExplain">
+              070-0000-0000
+            </span>
+          </div>
+          <div className="col-xs-6 col-sm-6 col-md-2 col-lg-2 text-center footerList">
+            <span className="footerTitle">
+              팩스번호
+            </span>
+            <span className="footerExplain">
+              0000-0000
+            </span>
+          </div>
+          <div className="col-xs-6 col-sm-6 col-md-2 col-lg-2 text-center footerList">
+            <span className="footerTitle">
+              이메일
+            </span>
+            <span className="footerExplain">
+              ㅇㅇㅇㅇㅇ@ㅇㅇㅇㅇ
+            </span>
+          </div>
+          <div className="col-xs-6 col-sm-6 col-md-2 col-lg-2 text-center footerList">
+            <span className="footerTitle">
+              개인정보책임자
+            </span>
+            <span className="footerExplain">
+              GJS
+            </span>
+          </div>
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <span className="footerCopyright">2018 Copyright © </span>
+            <a className="footerCopyright" href="#">VideoPlatform</a>
+            <span className="footerCopyright"> All rights reserved.</span>
+          </div>
         </div>
       </footer>
-      <style jsx>{`
-        .footer-top {
-          background-color: #000000;
-          color: #333;
-        }
-        .footer-bottom {
-          background-color: #000000;
-          color: #333;
-        }
-        .footer-bottom > a {
-          color: inherit;
-          text-decoration: none;
-        }
-      `}</style>
     </>
   );
 };

@@ -1,5 +1,4 @@
 import React from "react"
-import { Row, Grid, Col, Image, Media } from "react-bootstrap"
 
 const Liked = props => {
   return (

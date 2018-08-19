@@ -1,0 +1,12 @@
+type Person {
+  id: Int!
+  name: String!
+  age: Int!
+  gender: String!
+}
+
+type Query {
+  # []는 배열로 return하겠다는 것
+  people: [Person]
+  person(id: Int!): Person
+}

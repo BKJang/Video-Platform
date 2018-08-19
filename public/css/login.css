@@ -1,33 +1,50 @@
-body, html {
-	height: 100%;
-	font-family: Arial;
+body,
+html {
+  height: 100%;
+  font-family: Arial;
 }
 
 /*---------------------------------------------*/
 .input-login {
-	outline: none;
-	border: none;
+  outline: none;
+  border: none;
 }
 
-.input-login:focus::-webkit-input-placeholder { color:transparent; }
-.input-login:focus:-moz-placeholder { color:transparent; }
-.input-login:focus::-moz-placeholder { color:transparent; }
-.input-login:focus:-ms-input-placeholder { color:transparent; }
+.input-login:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.input-login:focus:-moz-placeholder {
+  color: transparent;
+}
+.input-login:focus::-moz-placeholder {
+  color: transparent;
+}
+.input-login:focus:-ms-input-placeholder {
+  color: transparent;
+}
 
-.input-login::-webkit-input-placeholder { color: #adadad;}
-.input-login:-moz-placeholder { color: #adadad;}
-.input-login::-moz-placeholder { color: #adadad;}
-.input-login:-ms-input-placeholder { color: #adadad;}
+.input-login::-webkit-input-placeholder {
+  color: #adadad;
+}
+.input-login:-moz-placeholder {
+  color: #adadad;
+}
+.input-login::-moz-placeholder {
+  color: #adadad;
+}
+.input-login:-ms-input-placeholder {
+  color: #adadad;
+}
 
 /*---------------------------------------------*/
 .button-login {
-	outline: none !important;
-	border: none;
-	background: transparent;
+  outline: none !important;
+  border: none;
+  background: transparent;
 }
 
 .button-login:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 /*[ login ]*/
 
@@ -37,7 +54,7 @@ body, html {
 }
 
 .container-login {
-  width: 100%;  
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -47,7 +64,7 @@ body, html {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #f2f2f2;  
+  background: #f2f2f2;
 }
 
 .wrap-login {
@@ -63,7 +80,6 @@ body, html {
   -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
-
 
 /*------------------------------------------------------------------
 [ Form ]*/
@@ -115,7 +131,7 @@ body, html {
   padding: 0 5px;
 }
 
-/*---------------------------------------------*/ 
+/*---------------------------------------------*/
 .focus-input100 {
   position: absolute;
   display: block;
@@ -218,8 +234,6 @@ body, html {
   color: linear-gradient(left, #21d4fd, #b721ff);
 }
 
-
-
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-login-form-btn {
@@ -279,7 +293,6 @@ body, html {
   left: 0;
 }
 
-
 .login-bottom-text {
   text-align: center;
   padding-top: 50px;
@@ -296,4 +309,56 @@ body, html {
   .wrap-login {
     padding: 30px 15px 30px 15px;
   }
+}
+
+/*nav----------------------------------------------------------------*/
+.mainHeader {
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  border: 0px;
+  color: #f6ad00;
+}
+
+.mainHeader a {
+  color: #f6ad00;
+}
+
+/*footer---------------------------------------------------------------*/
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer {
+  font-size: 11px;
+  background-color: white;
+  padding: 20px;
+  border: 0px;
+}
+
+.footerList {
+  padding: 10px;
+}
+
+.footerMain {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footerTitle {
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.footerExplain {
+  font-size: 13px;
+}
+
+.footerCopyright {
+  font-size: 13px;
+  font-weight: 700;
 }
