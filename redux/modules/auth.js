@@ -24,9 +24,6 @@ const initialState = Map({
       custEmail: '',
       custPasswd: '',
       custPasswdConfirm: '',
-      nationCode: '',
-      grecaptcha: '',
-      agreeToTerm: false
     }),
     error: null
   }),
@@ -35,8 +32,6 @@ const initialState = Map({
       custNo: null,
       custEmail: '',
       custPasswd: '',
-      grecaptcha: '',
-      validationCode: ''
     }),
     error: null
   }),
