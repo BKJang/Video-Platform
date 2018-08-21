@@ -124,7 +124,6 @@ class Login extends Component {
       <PageTemplate>
         <div className="container-login">
           <div className="wrap-login">
-            <form className="login-form">
               <span className="login-form-title">
                 Login
       </span>
@@ -167,7 +166,6 @@ class Login extends Component {
                   Sign Up
         </a>
               </div>
-            </form>
           </div>
         </div>
       </PageTemplate>
